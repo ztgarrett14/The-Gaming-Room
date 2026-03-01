@@ -1,1 +1,17 @@
-# The-Gaming-Room
+Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
+The Gaming Room is a company that developed a mobile version of their game, Draw It or Lose It, for Android devices. They wanted to expand the game into a web-based application that could support multiple platforms and a growing number of users. The system needed to allow multiple teams and players, ensure unique names for games and teams, and prevent duplicate instances from being created. They were also concerned with scalability, security, and cross-platform compatibility. My role was to design a system architecture that would meet these needs while recommending appropriate technologies and infrastructure.
+
+What did you do particularly well in developing this documentation?
+I believe I did well in clearly explaining the reasoning behind my technical recommendations. Rather than simply listing technologies, I connected each choice to the client’s goals, such as recommending a Linux-based server environment to support scalability and cost effectiveness. I also worked to present technical concepts in a way that would make sense to both the client and the development team.
+
+What about the process of working through a design document did you find helpful when developing the code?
+Completing the design document first helped me think through the structure and constraints of the system before beginning implementation. Planning components such as the centralized game service and unique identifier management made the coding phase more organized and efficient. It showed me how valuable it is to outline architecture and responsibilities early rather than solving problems only as they appear.
+
+If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+If I could revise one section, I would strengthen the discussion of security and risk mitigation. While I addressed authentication, operating system considerations, and general security principles, I could improve this section by including more specific examples of potential vulnerabilities and explaining in greater detail how the proposed architecture reduces those risks.
+
+How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
+I interpreted the user’s needs by translating their business goals into technical requirements. For example, their need to prevent duplicate games led to the implementation of a centralized service layer that controls object creation. Their desire to expand across platforms influenced the decision to recommend a web-based architecture. Considering user needs is critical because software ultimately exists to solve real problems. Even a well-built system will not succeed if it does not align with what the client and end users actually require.
+
+How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+My approach to designing the software was structured and methodical. I began by identifying functional and nonfunctional requirements, evaluated system constraints, and then selected technologies that aligned with scalability and maintainability goals. In the future, I would continue using this organized approach while incorporating clearer architectural diagrams earlier in the process and gathering more detailed user stories. These strategies would help improve clarity, reduce assumptions, and make the transition from design to development even smoother.
